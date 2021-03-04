@@ -2,7 +2,7 @@
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url('../img/header.jpg');
+  background-image: url('../img/header_blur.jpg');
   background-position: center center;
   @include background-cover;
   hr {
@@ -11,6 +11,9 @@ header.masthead {
   }
   h1 {
     font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.3rem;
   }
   p {
     font-weight: 300;

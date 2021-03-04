@@ -145,6 +145,8 @@ header.masthead {
     margin-bottom: 30px; }
   header.masthead h1 {
     font-size: 2rem; }
+  header.masthead h2 {
+    font-size: 1.3rem; }
   header.masthead p {
     font-weight: 300; }
   @media (min-width: 768px) {
