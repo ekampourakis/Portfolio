@@ -2,34 +2,27 @@
 <html lang="en">
 
 <head>
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D8E4XEFB9L"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-D8E4XEFB9L');
-    </script>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes, viewport-fit=cover">
     <meta name="description" content="">
     <meta name="author" content="ekampourakis">
 
-    <title>Manos Kampourakis - Landing Page</title>
+    <title>Emmanouil Kampourakis - Portfolio</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
-    <link href="vendor/fa/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
     <!-- Custom styles for this template -->
-    <link href="css/landing.css" rel="stylesheet">
+    <link href="css/creative.css" rel="stylesheet">
+    <link href="css/timeline.css" rel="stylesheet">
 
     <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
@@ -38,92 +31,658 @@
 
 <body id="page-top">
 
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#publications">Publications</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#showcase">Showcase</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <!-- Landing Image -->
-    <header class="masthead text-center text-white">
-        <div class="flex-column my-auto d-flex h-100 w-100">
-            <!-- my-auto -->
-            <img class="profile rounded-circle mx-auto my-auto" src="img/profile.jpg" alt>
-            <hr class="mx-auto my-auto">
-            <div class="my-auto mx-auto my-auto">
-
-                <h1>Manos Kampourakis</h1>
-                <h2>Software Engineer</h2>
-            </div>
-            <div class="icon-scroll mx-auto">
-                <div class="mouse">
-                    <div class="wheel"></div>
-                </div>
-                <!-- <div class="icon-arrows">
-                    <span></span>
-                </div> -->
-            </div>
-
+    <header class="masthead text-center text-white d-flex">
+        <div class="container my-auto">
+            <img class="img-fluid img-profile rounded-circle mx-auto" src="img/profile-250.jpg" alt>
+            <hr class="mx-auto">
+            <h1 class="text-uppercase">Emmanouil Kampourakis</h1>
+            <h2 class="text-uppercase">Senior Software Engineer</h2>
+        </div>
     </header>
+
+    <!-- Main Content -->
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="section-heading text-white">About me</h2>
+                    <hr class="light my-4">
+                    <p class="text-faded mb-4">
+                        Accomplished robotics engineer with extensive experience in simulation, autonomous systems, and embedded software development. Demonstrated success in leading integration efforts on EU projects – including SMARTHANDLE, MERGING, and SHAREWORK – by developing high-fidelity digital twins and advanced control algorithms. Proficient in managing cross-functional teams to deliver innovative solutions in both academic and industrial environments, with a strong focus on technical excellence and leadership.
+                    </p>
+                    <a class="btn btn-light btn-xl js-scroll-trigger" href="#education">Learn more!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="section-heading">Experience</h2>
+                    <hr class="my-4">
+                </div>
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <!-- Robotics Engineer at Robotics Club -->
+                        <li>
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="img/logo/robotics_club.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Nov 2016 - Jul 2017</h4>
+                                    <h4 class="subheading">Robotics Engineer at Robotics Club</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+                                        Developed real-time sensor-based pattern recognition algorithms for an autonomous line-following robot, earning 1st place at Robotex 2017 (enhanced category).
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Embedded Software Engineer at Paradox Kinetics -->
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="img/logo/paradox.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Sep 2017 - Apr 2018</h4>
+                                    <h4 class="subheading">Embedded Software Engineer at Paradox Kinetics</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+                                        Enhanced and troubleshot control algorithms for racing electric bike conversion kits to improve responsiveness and user experience, and delivered an intuitive GUI for real-time motor parameter tuning.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Embedded Software Engineer at UoP Racing Team -->
+                        <li>
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="img/logo/uop_racing.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Apr 2018 - May 2019</h4>
+                                    <h4 class="subheading">Embedded Software Engineer at UoP Racing Team</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+                                        Designed, tested, and optimized embedded software for race-car sub-systems including Battery Management Systems, high-speed data loggers, sensor nodes, and telemetry solutions. Developed a motorsports-grade display and steering wheel electronics in compliance with Formula Student standards.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Autonomous System Lead at UoP Racing Team -->
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="img/logo/uop_racing.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>May 2019 - Jun 2020</h4>
+                                    <h4 class="subheading">Autonomous System Lead at UoP Racing Team</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+                                        Led the conversion of an electric Formula Student race car into a fully autonomous vehicle. Oversaw system architecture, sensor integration, trajectory planning, and real-time control loops while establishing Hardware-in-the-Loop simulations to validate algorithms pre-deployment.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Senior Robotics Researcher at LMS -->
+                        <li>
+                            <div class="timeline-image">
+                                <img class="rounded-circle img-fluid" src="img/logo/lms.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Jun 2020 - Present</h4>
+                                    <h4 class="subheading">Senior Robotics Researcher at Laboratory for Manufacturing Systems &amp; Automation (LMS)</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">
+                                        Lead integration efforts on EU projects such as SMARTHANDLE, MERGING, and SHAREWORK. Developed high-fidelity digital twins using NVIDIA Omniverse and Isaac Sim, designed robust embedded software architectures for robotic manipulation of flexible materials, and implemented advanced control algorithms—including a GPU-accelerated ROS package and a 14-DoF model-based planning algorithm.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Timeline End -->
+                        <li class="timeline">
+                            <div class="timeline-image" style="background-color:#980807">
+                                <h4>Be Part
+                                    <br>Of My
+                                    <br>Story!
+                                </h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Education</h2>
+                    <hr class="my-4">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-content mr-auto">
+                    <h3 class="mb-0">M.Sc. in Computer Engineering and Informatics</h3>
+                    <div class="subheading mb-3">University of Patras</div>
+                    <p>Relevant Coursework: Embedded Systems, Robotics, Simulations</p>
+                </div>
+                <div class="resume-date text-md-right">
+                    <span class="text-primary">Oct 2016 - Present</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Skills</h2>
+                    <hr class="my-4">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <!-- Familiar Tools -->
+            <div class="resume-item d-flex flex-column flex-md-row mb-3">
+                <div class="resume-content mr-auto">
+                    <h3 class="mb-0">Familiar Tools</h3>
+                    <div class="subheading mb-3">Linux, Git, ROS, ROS2, NVIDIA Omniverse, Docker, User Interfaces</div>
+                </div>
+            </div>
+            <!-- Programming Languages -->
+            <div class="resume-item d-flex flex-column flex-md-row mb-3">
+                <div class="resume-content mr-auto">
+                    <h3 class="mb-0">Programming Languages</h3>
+                    <div class="subheading mb-3">C, C++, Python, VB.NET, PHP, SQL</div>
+                </div>
+            </div>
+            <!-- Embedded Systems -->
+            <div class="resume-item d-flex flex-column flex-md-row mb-3">
+                <div class="resume-content mr-auto">
+                    <h3 class="mb-0">Embedded Systems</h3>
+                    <div class="subheading mb-3">Microcontrollers, Circuit Boards, Battery Systems</div>
+                </div>
+            </div>
+            <!-- Robotics -->
+            <div class="resume-item d-flex flex-column flex-md-row mb-3">
+                <div class="resume-content mr-auto">
+                    <h3 class="mb-0">Robotics</h3>
+                    <div class="subheading mb-3">Driverless Vehicles, Perception Systems, Sensor Fusion, Robotic Manipulation and Optimization, 3D Math, Navigation, Control Strategies</div>
+                </div>
+            </div>
+            <!-- Other Skills -->
+            <div class="resume-item d-flex flex-column flex-md-row mb-3">
+                <div class="resume-content mr-auto">
+                    <h3 class="mb-0">Other Skills</h3>
+                    <div class="subheading mb-3">Proficient in 3D Printing and Manufacturing Processes, Skilled in CAD Modeling, Electronics Prototyping</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Removed the "Abilities" section as the resume content has been integrated into Skills -->
+
+    <section id="interests">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Interests</h2>
+                    <hr class="my-4">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="resume-item d-flex flex-column flex-md-row">
+                <div class="resume-content mr-auto">
+                    <p style="text-indent: 5%;">Apart from my engineering pursuits, I am an avid racer and technology enthusiast. I enjoy working on motor vehicles, exploring the latest in robotics and simulation, and embracing the challenges of innovative research.</p>
+                </div>
+            </div>
+            <div class="resume-item d-flex flex-column flex-md-row">
+                <div class="resume-content mr-auto">
+                    <p style="text-indent: 5%;">When not in the lab, I experiment with physics, computer science, and robotics – whether that’s through personal projects or exploring emerging technological trends.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="publications">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Publications</h2>
+                    <hr class="my-4">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <!-- Publication 1 -->
+            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-content mr-auto">
+                    <a class="mb-0" target="_blank" href="https://www.researchgate.net/publication/387579703_Integrating_Cyber-Physical_Systems_in_Non-rigid_Assemblies_A_Composites_Manufacturing_Case_Study">
+                        <h3>Integrating Cyber-Physical Systems in Non-rigid Assemblies: A Composites Manufacturing Case Study</h3>
+                    </a>
+                    <div class="subheading mb-3">Jan 2025</div>
+                </div>
+            </div>
+            <!-- Publication 2 -->
+            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-content mr-auto">
+                    <a class="mb-0" target="_blank" href="https://www.researchgate.net/publication/379424375_A_service-oriented_orchestration_and_planning_tool_for_plug_and_produce_manufacturing_a_deformable_object_handling_supervision_paradigm">
+                        <h3>A service-oriented orchestration and planning tool for plug and produce manufacturing: a deformable object handling supervision paradigm</h3>
+                    </a>
+                    <div class="subheading mb-3">Journal of Manufacturing Systems, Mar 2024</div>
+                </div>
+            </div>
+            <!-- Publication 3 -->
+            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-content mr-auto">
+                    <a class="mb-0" target="_blank" href="https://www.researchgate.net/publication/384949628_Reconfigurable_Manufacturing_Systems_through_Intelligent_Workpiece_Handling_and_Artificial_Intelligence">
+                        <h3>Reconfigurable Manufacturing Systems through Intelligent Workpiece Handling and Artificial Intelligence</h3>
+                    </a>
+                    <div class="subheading mb-3">Procedia CIRP, Jan 2024</div>
+                </div>
+            </div>
+            <!-- Publication 4 -->
+            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-content mr-auto">
+                    <a class="mb-0" target="_blank" href="https://www.researchgate.net/publication/374358926_Cyber-physical_systems_in_non-rigid_assemblies_A_methodology_for_the_calibration_of_deformable_object_reconstruction_models">
+                        <h3>Cyber-physical systems in non-rigid assemblies: A methodology for the calibration of deformable object reconstruction models</h3>
+                    </a>
+                    <div class="subheading mb-3">Journal of Manufacturing Systems, Oct 2023</div>
+                </div>
+            </div>
+            <!-- Publication 5 -->
+            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-content mr-auto">
+                    <a class="mb-0" target="_blank" href="https://www.researchgate.net/publication/372722263_On_deformable_object_handling_multi-tool_end-effector_for_robotized_manipulation_and_layup_of_fabrics_and_composites">
+                        <h3>On deformable object handling: multi-tool end-effector for robotized manipulation and layup of fabrics and composites</h3>
+                    </a>
+                    <div class="subheading mb-3">International Journal of Advanced Manufacturing Technology, Jul 2023</div>
+                </div>
+            </div>
+            <!-- Publication 6 -->
+            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-content mr-auto">
+                    <a class="mb-0" target="_blank" href="https://www.researchgate.net/publication/372187219_Towards_seamless_collaboration_of_humans_and_high-payload_robots_An_automotive_case_study">
+                        <h3>Towards seamless collaboration of humans and high-payload robots: An automotive case study</h3>
+                    </a>
+                    <div class="subheading mb-3">Robotics and Computer-Integrated Manufacturing, Jul 2023</div>
+                </div>
+            </div>
+            <!-- Publication 7 -->
+            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-content mr-auto">
+                    <a class="mb-0" target="_blank" href="https://www.researchgate.net/publication/360871358_On_deformable_object_handling_Model-based_motion_planning_for_human-robot_co-manipulation">
+                        <h3>On deformable object handling: Model-based motion planning for human-robot co-manipulation</h3>
+                    </a>
+                    <div class="subheading mb-3">CIRP Annals - Manufacturing Technology, May 2022</div>
+                </div>
+            </div>
+            <!-- Publication 8 -->
+            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+                <div class="resume-content mr-auto">
+                    <a class="mb-0" target="_blank" href="https://www.researchgate.net/publication/356669486_Model-Based_Robot_Control_for_Human-Robot_Flexible_Material_Co-Manipulation">
+                        <h3>Model-Based Robot Control for Human-Robot Flexible Material Co-Manipulation</h3>
+                    </a>
+                    <div class="subheading mb-3">26th IEEE Intl. Conf. on Emerging Technologies and Factory Automation (ETFA), Sep 2021</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-0" id="showcase">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Showcase</h2>
+                    <hr class="my-4">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid p-0">
+            <div class="row no-gutters popup-gallery">
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img class="img-fluid" src="img/portfolio/thumbnails/uop7e.jpg" alt="">
+                        <div class="portfolio-box-caption" onClick="alert( 'This project is not public. Please contact me directly for more information.')">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">Software</div>
+                                <div class="project-name">UoP7e Racecar</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img class="img-fluid" src="img/portfolio/thumbnails/uop6d.jpg" alt="">
+                        <div class="portfolio-box-caption" onClick="alert( 'This project is not public. Please contact me directly for more information.')">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">Robotics</div>
+                                <div class="project-name">UoP6d Racecar</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img class="img-fluid" src="img/portfolio/thumbnails/leapmotion.jpg" alt="">
+                        <div class="portfolio-box-caption" onClick="alert( 'This project is not public. Please contact me directly for more information.')">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">Libraries</div>
+                                <div class="project-name">Leap Motion Controller ROS Driver</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img class="img-fluid" src="img/portfolio/thumbnails/clothsim.jpg" alt="">
+                        <div class="portfolio-box-caption" onClick="alert( 'This project is not public. Please contact me directly for more information.')">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">Software</div>
+                                <div class="project-name">ClothSim</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" target="_blank" href="https://github.com/ekampourakis/DCA">
+                        <img class="img-fluid" src="img/portfolio/thumbnails/dca.jpg" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">Algorithms</div>
+                                <div class="project-name">DCA</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img class="img-fluid" src="img/portfolio/thumbnails/merging.jpg" alt="">
+                        <div class="portfolio-box-caption" onClick="alert( 'This project is not public. Please contact me directly for more information.')">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">Robotics</div>
+                                <div class="project-name">MERGING Project EU</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img class="img-fluid" src="img/portfolio/thumbnails/uoptelemetry.jpg" alt="">
+                        <div class="portfolio-box-caption" onClick="alert( 'This project is not public. Please contact me directly for more information.')">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">Software</div>
+                                <div class="project-name">UoP Telemetry</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img class="img-fluid" src="img/portfolio/thumbnails/soundlight.jpg" alt="">
+                        <div class="portfolio-box-caption" onClick="alert( 'This project is not public. Please contact me directly for more information.')">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">Electronics</div>
+                                <div class="project-name">SoundLight</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" target="_blank" href="https://github.com/ekampourakis/LogAnalyzer">
+                        <img class="img-fluid" src="img/portfolio/thumbnails/loganalyzer.jpg" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">Software</div>
+                                <div class="project-name">LogAnalyzer</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" target="_blank" href="https://github.com/ekampourakis/RevLight-HUD">
+                        <img class="img-fluid" src="img/portfolio/thumbnails/revlight.jpg" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">Electronics</div>
+                                <div class="project-name">RevLight HUD</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" target="_blank" href="https://github.com/ekampourakis/GyroPlane">
+                        <img class="img-fluid" src="img/portfolio/thumbnails/gyroplane.jpg" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">Electronics</div>
+                                <div class="project-name">GyroPlane</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" target="_blank" href="https://github.com/ekampourakis/MuRID">
+                        <img class="img-fluid" src="img/portfolio/thumbnails/murid.jpg" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">Electronics</div>
+                                <div class="project-name">MuRID</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" target="_blank" href="https://github.com/ekampourakis/RFID-Cloud">
+                        <img class="img-fluid" src="img/portfolio/thumbnails/rfid_cloud.jpg" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">Software</div>
+                                <div class="project-name">RFID Cloud</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img class="img-fluid" src="img/portfolio/thumbnails/pcan-gps.jpg" alt="">
+                        <div class="portfolio-box-caption" onClick="alert( 'This project is not public. Please contact me directly for more information.')">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">Libraries</div>
+                                <div class="project-name">PCAN-GPS</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img class="img-fluid" src="img/portfolio/thumbnails/ltc6804.jpg" alt="">
+                        <div class="portfolio-box-caption" onClick="alert( 'This project is not public. Please contact me directly for more information.')">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">Libraries</div>
+                                <div class="project-name">LTC6804</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" target="_blank" href="https://github.com/ekampourakis/VESC_UART">
+                        <img class="img-fluid" src="img/portfolio/thumbnails/vescuart.jpg" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">Libraries</div>
+                                <div class="project-name">VESC-UART</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" target="_blank" href="https://github.com/ekampourakis/EnhancedSerial">
+                        <img class="img-fluid" src="img/portfolio/thumbnails/enhancedserial.jpg" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">Libraries</div>
+                                <div class="project-name">EnhancedSerial</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img class="img-fluid" src="img/portfolio/thumbnails/bikeesc.jpg" alt="">
+                        <div class="portfolio-box-caption" onClick="alert( 'This project is not public. Please contact me directly for more information.')">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">Robotics</div>
+                                <div class="project-name">BikeESC</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img class="img-fluid" src="img/portfolio/thumbnails/zed2.jpg" alt="">
+                        <div class="portfolio-box-caption" onClick="alert( 'This project is not public. Please contact me directly for more information.')">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">Libraries</div>
+                                <div class="project-name">ZED2 ROS Driver</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box">
+                        <img class="img-fluid" src="img/portfolio/thumbnails/metawear.jpg" alt="">
+                        <div class="portfolio-box-caption" onClick="alert( 'This project is not public. Please contact me directly for more information.')">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">Libraries</div>
+                                <div class="project-name">METAMOTIONRL ROS Driver</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" target="_blank" href="https://github.com/ekampourakis/cpp-pe-injection">
+                        <img class="img-fluid" src="img/portfolio/thumbnails/injection.jpg" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">Software</div>
+                                <div class="project-name">C++ PE Injection</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" target="_blank" href="https://github.com/ekampourakis/wled_ros_wrapper">
+                        <img class="img-fluid" src="img/portfolio/thumbnails/wledros.jpg" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">Libraries</div>
+                                <div class="project-name">WLED ROS Wrapper</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="bg-dark text-white" id="contact">
         <div class="container text-center">
-            <h2 class="mb-5">Let's get in touch..</h2>
-            <hr class="my-5">
-            <ul class="list-inline mb-3">
+            <h2 class="mb-4">Around the web</h2>
+            <ul class="list-inline mb-0">
                 <li class="list-inline-item">
-                    <a class="btn btn-outline-light btn-social text-center rounded-circle" target="_blank" href="mailto:ekampourakis@ceid.upatras.gr">
-                        <i class="far fa-envelope-open"></i>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a class="btn btn-outline-light btn-social text-center rounded-circle" target="_blank" href="tel:306940811844">
-                        <i class="fas fa-phone-alt"></i>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a class="btn btn-outline-light btn-social text-center rounded-circle" target="_blank" href="mailto:passw74@gmail.com">
-                        <i class="fab fa-google"></i>
-                    </a>
-                </li>
-            </ul>
-            <ul class="list-inline mb-3">
-                <li class="list-inline-item">
-                    <a class="btn btn-outline-light btn-social text-center rounded-circle" target="_blank" href="skype:live:ekampourakis_1?add">
-                        <i class="fab fa-skype"></i>
+                    <a class="btn btn-outline-light btn-social text-center rounded-circle" target="_blank" href="https://www.facebook.com/manos.kabourakis">
+                        <i class="fa fa-fw fa-facebook"></i>
                     </a>
                 </li>
                 <li class="list-inline-item">
                     <a class="btn btn-outline-light btn-social text-center rounded-circle" target="_blank" href="https://www.linkedin.com/in/manos-kampourakis-15505814b/">
-                        <i class="fab fa-linkedin"></i>
+                        <i class="fa fa-fw fa-linkedin"></i>
                     </a>
                 </li>
                 <li class="list-inline-item">
                     <a class="btn btn-outline-light btn-social text-center rounded-circle" target="_blank" href="https://github.com/ekampourakis">
-                        <i class="fab fa-github"></i>
+                        <i class="fa fa-fw fa-github"></i>
                     </a>
                 </li>
             </ul>
-            <ul class="list-inline mb-3">
-                <li class="list-inline-item">
-                    <a class="btn btn-outline-light btn-social text-center rounded-circle" target="_blank" href="https://www.facebook.com/manos.kabourakis">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a class="btn btn-outline-light btn-social text-center rounded-circle" target="_blank" href="instagram://user?username=ekampourakis">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a class="btn btn-outline-light btn-social text-center rounded-circle" target="_blank" href="https://discordapp.com/users/ekampourakis#9948">
-                        <i class="fab fa-discord"></i>
-                    </a>
-                </li>
-            </ul>
-            <hr class="my-5">
-            <!-- <h2 class="mb-5">..or continue to my <a href="https://ekampourakis.github.io/Portfolio/portfolio.html">portfolio</a>.</h2> -->
-            <h2 class="mb-5">..or continue to my <a href="portfolio.html">portfolio</a>.</h2>
+        </div>
+    </section>
+
+    <section id="contact2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <hr class="my-4">
+                    <p class="mb-5">Ready to start your next project with me? That's great! Give me a call or send me an email and I will get back to you as soon as possible!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 ml-auto text-center">
+                    <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
+                    <p><a href="tel:306940811844">+30-694-081-1844</a></p>
+                </div>
+                <div class="col-lg-4 mr-auto text-center">
+                    <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
+                    <p><a href="mailto:ekampourakhs@gmail.com">ekampourakhs@gmail.com</a></p>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <!-- This script was disabled to allow for link redirection on the work category -->
+    <!--<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>-->
+
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.min.js"></script>
 
 </body>
 
